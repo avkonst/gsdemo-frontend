@@ -2,9 +2,9 @@
 url = "file:///tmp/gitscale-demo-bucket"
 
 [repos]
-"gsdemo-sso" = { url = "https://github.com/avkonst/gsdemo-sso.git", revision = "master", mode = "artefact" }
-"gsdemo-core" = { url = "https://github.com/avkonst/gsdemo-core.git", revision = "master", mode = "artefact" }
-"gsdemo-compose" = { url = "https://github.com/avkonst/gsdemo-compose.git", revision = "master" }
+"gsdemo-sso" = { url = "git@github.com:avkonst/gsdemo-sso.git", revision = "master", mode = "artefact" }
+"gsdemo-core" = { url = "git@github.com:avkonst/gsdemo-core.git", revision = "master", mode = "artefact" }
+"gsdemo-compose" = { url = "git@github.com:avkonst/gsdemo-compose.git", revision = "master" }
 
 [hooks]
 post_sync = "echo 'post-sync hook executed successfully'"
